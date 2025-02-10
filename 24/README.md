@@ -1,5 +1,3 @@
-`make run_part1`
-
 `make run_part2`
 
 All the solutions I've seen for part 2 rely on some strong assumptions about the input, made by manually inspecting it. 
