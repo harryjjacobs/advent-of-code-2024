@@ -1,0 +1,48 @@
+📦 files 🏠
+
+🏁 🍇
+    💭 Read all bytes in f
+    🍺📇🐇📄🔤input🔤❗️ ➡️ bytes
+
+    💭 Convert to a string
+    🍺🔡bytes❗️ ➡️ contents
+
+    💭 Split lines
+    🔫contents🔤❌n🔤❗️ ➡️ lines
+    
+    💭 Populate lists
+    💭🍿🍆 ➡️ 🖍🆕left_list
+    💭🍿🍆 ➡️ 🖍🆕right_list
+    🆕🍨🐚🔢🍆❗️ ➡️ 🖍🆕 left_list
+    🆕🍨🐚🔢🍆❗️ ➡️ 🖍🆕 right_list
+    🔂 line lines 🍇
+        ↪️ ❎line 🙌 🔤🔤❗️ 🍇 💭 If string is not empty
+            🔫line🔤   🔤❗️ ➡️ parts
+            🍺🔢🐽parts 0❗️ 10❗️ ➡️ left
+            🍺🔢🐽parts 1❗️ 10❗️ ➡️ right
+            🐻left_list left❗️
+            🐻right_list right❗️
+        🍉
+    🍉
+
+    💭 Sort lists
+    🍇 a🔢 b🔢 ➡️🔢
+       ↩️ a ➖ b
+    🍉 ➡️ comparator
+
+    🦁left_list comparator❗️
+    🦁right_list comparator❗️
+    
+    0 ➡️ 🖍🆕 score
+    🔂 i 🆕⏩ 0 📏left_list❓❗️ 🍇
+        0 ➡️ 🖍🆕 total
+        🔂 j 🆕⏩ 0 📏right_list❓❗️ 🍇
+            ↪️ 🐽left_list i❗️🙌 🐽right_list j❗️🍇
+                total➕1 ➡️ 🖍total
+            🍉
+        🍉
+        score➕total✖️🐽left_list i❗️ ➡️ 🖍score
+    🍉
+
+    😀 🔡score❗️❗️
+🍉
